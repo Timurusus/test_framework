@@ -1,6 +1,6 @@
 {
   "qa": {
-    "driver": "{SQL Server}",
+    "driver": "{ODBC Driver 17 for SQL Server}",
     "server_name": "EPBYMINW0BF6\\SQLEXPRESS",
     "database": "TRN",
     "test_data_folder": "test_data"
