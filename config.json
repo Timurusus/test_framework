@@ -1,0 +1,8 @@
+{
+  "qa": {
+    "driver": "{SQL Server}",
+    "server_name": "EPBYMINW0BF6\\SQLEXPRESS",
+    "database": "TRN",
+    "test_data_folder": "test_data"
+  }
+}

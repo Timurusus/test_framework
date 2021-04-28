@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "Check table 'regions' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.regions",
+      "expected": 4
+    },
+    {
+      "name": "Check table 'countries' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.countries",
+      "expected": 25
+    },
+    {
+      "name": "Check table 'employees' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.employees",
+      "expected": 40
+    },
+    {
+      "name": "Check table 'departments' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.departments",
+      "expected": 11
+    },
+    {
+      "name": "Check table 'dependents' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.dependents",
+      "expected": 30
+    },
+    {
+      "name": "Check table 'jobs' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.jobs",
+      "expected": 19
+    },
+    {
+      "name": "Check table 'locations' for data existing",
+      "query": "SELECT COUNT(*) FROM hr.locations",
+      "expected": 7
+    }
+  ]
+}
