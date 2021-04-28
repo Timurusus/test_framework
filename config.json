@@ -1,0 +1,8 @@
+{
+  "qa": {
+    "driver": "{ODBC Driver 17 for SQL Server}",
+    "server_name": "host.docker.internal",
+    "database": "TRN",
+    "test_data_folder": "test_data"
+  }
+}
