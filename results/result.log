@@ -1,24 +1,24 @@
-2021-04-28 17:05:31,757 Testing of test_data\tests.json was started
-2021-04-28 17:05:31,757 Test case "Check table 'regions' for data existing"
-2021-04-28 17:05:31,759 PASS. Result is 4 as expected
+2021-04-28 20:23:14,223 Testing of test_data\tests.json was started
+2021-04-28 20:23:14,223 Test case "Check table 'regions' for data existing"
+2021-04-28 20:23:14,223 PASS. Result is 4 as expected
 	Query: SELECT COUNT(*) FROM hr.regions
-2021-04-28 17:05:31,759 Test case "Check table 'countries' for data existing"
-2021-04-28 17:05:31,761 PASS. Result is 25 as expected
+2021-04-28 20:23:14,223 Test case "Check table 'countries' for data existing"
+2021-04-28 20:23:14,239 PASS. Result is 25 as expected
 	Query: SELECT COUNT(*) FROM hr.countries
-2021-04-28 17:05:31,761 Test case "Check table 'employees' for data existing"
-2021-04-28 17:05:31,763 PASS. Result is 40 as expected
+2021-04-28 20:23:14,239 Test case "Check table 'employees' for data existing"
+2021-04-28 20:23:14,240 PASS. Result is 40 as expected
 	Query: SELECT COUNT(*) FROM hr.employees
-2021-04-28 17:05:31,763 Test case "Check table 'departments' for data existing"
-2021-04-28 17:05:31,764 PASS. Result is 11 as expected
+2021-04-28 20:23:14,240 Test case "Check table 'departments' for data existing"
+2021-04-28 20:23:14,240 PASS. Result is 11 as expected
 	Query: SELECT COUNT(*) FROM hr.departments
-2021-04-28 17:05:31,764 Test case "Check table 'dependents' for data existing"
-2021-04-28 17:05:31,765 PASS. Result is 30 as expected
+2021-04-28 20:23:14,240 Test case "Check table 'dependents' for data existing"
+2021-04-28 20:23:14,243 PASS. Result is 30 as expected
 	Query: SELECT COUNT(*) FROM hr.dependents
-2021-04-28 17:05:31,766 Test case "Check table 'jobs' for data existing"
-2021-04-28 17:05:31,767 PASS. Result is 19 as expected
+2021-04-28 20:23:14,243 Test case "Check table 'jobs' for data existing"
+2021-04-28 20:23:14,243 PASS. Result is 19 as expected
 	Query: SELECT COUNT(*) FROM hr.jobs
-2021-04-28 17:05:31,767 Test case "Check table 'locations' for data existing"
-2021-04-28 17:05:31,768 PASS. Result is 7 as expected
+2021-04-28 20:23:14,243 Test case "Check table 'locations' for data existing"
+2021-04-28 20:23:14,243 PASS. Result is 7 as expected
 	Query: SELECT COUNT(*) FROM hr.locations
-2021-04-28 17:05:31,768 Testing is finished
-2021-04-28 17:05:31,768 TestFrameworks runtime is 0:00:00.011028
+2021-04-28 20:23:14,243 Testing is finished
+2021-04-28 20:23:14,243 TestFrameworks runtime is 0:00:00.019955

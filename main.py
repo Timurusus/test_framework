@@ -4,6 +4,7 @@ from connector import Connector
 from resulting import Result
 from test_processor import TestProcessor
 
+#test
 
 def run():
     config = Configurator(argv[1])
