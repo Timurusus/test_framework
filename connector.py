@@ -2,10 +2,12 @@ import pyodbc
 
 
 class Connector:
-    def __init__(self, driver, server, database):
+    def __init__(self, driver, server, database, uid, pwd):
         conn = pyodbc.connect(driver=driver,
                               server=server,
-                              database=database
+                              database=database,
+                              uid=uid,
+                              pwd=pwd
                               )
         self.cursor = conn.cursor()
 

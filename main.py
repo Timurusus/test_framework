@@ -11,7 +11,7 @@ def run():
     server_name = config.get_server_name()
     database_name = config.get_database_name()
 
-    connector = Connector(driver_name, server_name, database_name)
+    connector = Connector(driver_name, server_name, database_name, "TsimurCharniauski", "1234")
 
     logger = Result()
 
